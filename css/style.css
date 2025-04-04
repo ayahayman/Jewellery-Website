@@ -346,3 +346,25 @@ font-size: 16px;
     opacity: 0.9;
     transition: 0.5s;
 }
+
+.collection-item .collection-info h3 {
+    color: white;
+    font-size: 20px;
+    margin: 50px 0px;
+}
+
+.collection-item .collection-info p {
+    color: whitesmoke;
+    font-size: 16px;
+    margin: 0px 20px;
+}
+
+.view-collection {
+    text-decoration: none;
+    color:#c39066;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 25px;
+    display: block;
+}
