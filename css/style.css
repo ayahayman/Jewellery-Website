@@ -110,7 +110,7 @@ font-size: 16px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     position: relative;
 }
@@ -317,9 +317,32 @@ font-size: 16px;
     margin: 0px 15%;
 }
 
-.collection-item img {
+.collection-item {
+    position: relative;
     float: left;
-    height: 250px;
     width: 200px;
+    height: 250px;
     margin: 0px 5%;
+}
+
+.collection-item img {
+    height: 100%;
+    width: 100%;
+}
+
+.collection-item .collection-info {
+    position: absolute;
+    background-color: #20170f5f;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+    visibility: hidden;
+}
+
+.collection-item:hover .collection-info {
+    visibility: visible;
+    opacity: 0.9;
+    transition: 0.5s;
 }
