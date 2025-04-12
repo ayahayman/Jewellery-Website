@@ -480,6 +480,14 @@ font-size: 16px;
     display: block;
 }
 
+.decorative-divider {
+    width: 100%;
+    color: #654932;
+    margin: 0px auto;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
 /* why choose us section */
 .why-choose-us {
     width: 100%;
